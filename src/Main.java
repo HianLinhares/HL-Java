@@ -12,20 +12,22 @@ public class Main {
 //        int numero = hl.nextInt();
 //        System.out.println("O número digitado foi : "+numero);
 
-
-
-
-        int a = 10;
+        int a = 100;
         int b = 89;
-        String iguais;
-        if (a==b){
-            iguais = "Sim";
-            System.out.println(iguais);
-        }else{
-            iguais = "Nâo";
-            System.out.println(iguais);
+
+        //OPERADORES RELACIONAIS
+        if (a>b){
+            System.out.println("A MAIOR QUE B");
         }
 
+
+
+
+
+
+
+
+        String iguais;
         //OPERADOR TERNÁRIO
         String iguais2 = a+b==99 ? "iguais" : "diferentes";
         System.out.println(iguais2);
