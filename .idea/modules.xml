@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HL-JavaIntelliJ.iml" filepath="$PROJECT_DIR$/HL-JavaIntelliJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/anotacoes/anotacoes.iml" filepath="$PROJECT_DIR$/anotacoes/anotacoes.iml" />
     </modules>
   </component>
 </project>
