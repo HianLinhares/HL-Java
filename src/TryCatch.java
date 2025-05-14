@@ -22,7 +22,12 @@ public class TryCatch {
             System.out.println("Os campos idade e altura precisam ser númericos");
 
 
+
+
         }
     }
+
+
+
 }
 
