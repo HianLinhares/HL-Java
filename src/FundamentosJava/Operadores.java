@@ -1,3 +1,5 @@
+package FundamentosJava;
+
 public class Operadores {
 //        System.out.println("Olá Hian Linhares");
 //        Scanner hl = new Scanner(System.in);

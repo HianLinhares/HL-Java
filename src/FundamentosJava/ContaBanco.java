@@ -1,3 +1,5 @@
+package FundamentosJava;
+
 public class ContaBanco {
     int numero;
     String agencia;

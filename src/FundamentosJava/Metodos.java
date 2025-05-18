@@ -1,3 +1,5 @@
+package FundamentosJava;
+
 public class Metodos {
 
 public boolean ligada = false;

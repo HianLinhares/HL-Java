@@ -1,3 +1,5 @@
+package FundamentosJava;
+
 import java.util.Random;
 
 public class ProcessoSeletivo {
