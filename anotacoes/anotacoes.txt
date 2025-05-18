@@ -1,0 +1,15 @@
+Linguagens de baixo e alto nível
+
+
+Baixo nível (assembly): Linguagens que estão mais próximas a interpretação de máquina
+Alto nível (Java,javascript, python..): Disponibilizam uma linguagem de sintaxe
+
+programação estruturada: paradigma de programação que visa melhorar a clareza
+de desenvolvimento de um programa de computador, fazendo uso extensivo das
+construções de fluxo de controle estruturado de seleção(if/then/else) e repetição(while, for)
+estruturas de bloxos e sub-rotinas
+
+
+
+
+
