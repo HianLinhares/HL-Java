@@ -1,6 +1,4 @@
-package TigerGame;
-
-import org.w3c.dom.ls.LSOutput;
+package DesafioRandomico;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -16,21 +14,21 @@ public class Tigergame {
         for (int i = 0; i < 20; i++) {
             System.out.print("Chute um número: ");
             chute = hl.nextInt();
-            if (numerosorteado>chute){
-                System.out.print("O número chutado é menor que o número sorteado " +numerosorteado);
+            if (numerosorteado > chute) {
+                System.out.print("O número chutado é menor que o número sorteado " + numerosorteado);
                 dinheiro--;
                 System.out.println();
-            }else if (numerosorteado<chute){
-                System.out.print("O número chutado é maior que o número sorteado "+numerosorteado);
+            } else if (numerosorteado < chute) {
+                System.out.print("O número chutado é maior que o número sorteado " + numerosorteado);
                 dinheiro--;
                 System.out.println();
-            }else if (numerosorteado==chute){
+            } else if (numerosorteado == chute) {
                 System.out.print("ACERTOUU");
                 System.out.println();
                 break;
             }
         }
-        System.out.println("Seu dinheiro final foi: "+dinheiro);
+        System.out.println("Seu dinheiro final foi: " + dinheiro);
     }
 
 
