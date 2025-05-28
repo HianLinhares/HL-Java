@@ -10,6 +10,9 @@ construções de fluxo de controle estruturado de seleção(if/then/else) e repe
 estruturas de bloxos e sub-rotinas
 
 
+VISIBIILIDADE DE ARQUIVOS
 
-
-
+private	Somente dentro da própria classe. Use getters e setters.
+protectedDireto em subclasses ou no mesmo pacote.
+public	Livre acesso.
+default	Somente classes do mesmo pacote.
