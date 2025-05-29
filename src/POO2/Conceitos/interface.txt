@@ -1,0 +1,47 @@
+Uma interface define um contrato que uma classe deve seguir, ou seja, um conjunto de métodos que devem ser implementados por essa classe.
+Ela não contém implementação, apenas a assinatura dos métodos.
+
+Em outras palavras: uma interface diz o que deve ser feito, mas não como.
+
+✅ Benefícios da interface:
+Permite criar sistemas flexíveis e desacoplados
+
+Facilita a multipla implementação (uma classe pode implementar várias interfaces)
+
+Define um padrão para várias classes diferentes seguirem
+
+// Definição da interface
+public interface Veiculo {
+    void acelerar();
+    void frear();
+}
+
+
+// Classe que implementa a interface
+public class Carro implements Veiculo {
+
+    @Override
+    public void acelerar() {
+        System.out.println("Carro acelerando...");
+    }
+
+    @Override
+    public void frear() {
+        System.out.println("Carro freando...");
+    }
+}
+
+// Uso da interface
+public class Main {
+    public static void main(String[] args) {
+        Veiculo meuCarro = new Carro();
+
+        meuCarro.acelerar();  // Saída: Carro acelerando...
+        meuCarro.frear();     // Saída: Carro freando...
+    }
+}
+Interface é um contrato que obriga a classe a implementar seus métodos.
+
+Não tem código, apenas métodos abstratos (assinaturas).
+
+Pode ser implementada por várias classes diferentes, garantindo consistência.
