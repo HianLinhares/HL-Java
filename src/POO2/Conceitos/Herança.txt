@@ -1,0 +1,55 @@
+🧬 Herança
+Herança é um princípio da programação orientada a objetos que permite reutilizar código.
+Com ela, uma classe filha (ou subclasse) pode herdar atributos e métodos de uma classe pai (ou superclasse).
+
+✅ Benefícios:
+Reutilização de código
+
+Organização e hierarquia
+
+Facilidade de manutenção
+
+Em resumo: herança é "herdar" comportamentos para evitar repetir código.
+
+
+
+// Classe base (superclasse)
+public class Animal {
+    protected String nome;
+
+    public Animal(String nome) {
+        this.nome = nome;
+    }
+
+    public void emitirSom() {
+        System.out.println("Som genérico de animal");
+    }
+}
+
+// Classe derivada (subclasse)
+public class Cachorro extends Animal {
+
+    public Cachorro(String nome) {
+        super(nome); // Chama o construtor da superclasse
+    }
+
+    // Sobrescrita do método da superclasse
+    @Override
+    public void emitirSom() {
+        System.out.println("Au au!");
+    }
+}
+
+// Classe principal
+public class Main {
+    public static void main(String[] args) {
+        Cachorro dog = new Cachorro("Rex");
+
+        System.out.println("Nome: " + dog.nome);
+        dog.emitirSom(); // Saída: Au au!
+    }
+}
+
+A classe Cachorro herda o atributo nome e o método emitirSom() da classe Animal.
+
+Ela também pode sobrescrever métodos, como foi feito com emitirSom().
