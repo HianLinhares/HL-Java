@@ -8,6 +8,5 @@ public class Autodromo {
         System.out.println(civic.getChassi());
         Moto cb = new Moto();
         cb.ligar();
-
     }
 }
