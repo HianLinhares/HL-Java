@@ -1,0 +1,50 @@
+Polimorfismo significa "muitas formas".
+É a capacidade de um objeto se comportar de maneiras diferentes dependendo do contexto, mesmo que tenha a mesma interface ou classe base.
+
+Em POO, permite que métodos com o mesmo nome tenham comportamentos diferentes, conforme a classe do objeto.
+
+✅ Benefícios do polimorfismo
+Flexibilidade no código
+
+Reutilização e extensão fácil
+
+Reduz condicionais para escolher comportamentos
+
+// Superclasse
+public class Animal {
+    public void emitirSom() {
+        System.out.println("Som genérico");
+    }
+}
+
+// Subclasse 1
+public class Cachorro extends Animal {
+    @Override
+    public void emitirSom() {
+        System.out.println("Au au!");
+    }
+}
+
+// Subclasse 2
+public class Gato extends Animal {
+    @Override
+    public void emitirSom() {
+        System.out.println("Miau!");
+    }
+}
+
+
+public class Main {
+    public static void main(String[] args) {
+        Animal a1 = new Cachorro();
+        Animal a2 = new Gato();
+
+        a1.emitirSom();  // Saída: Au au!
+        a2.emitirSom();  // Saída: Miau!
+    }
+}
+
+Apesar de a1 e a2 serem do tipo Animal, cada um executa o método sobrescrito da sua classe real.
+
+Isso é o polimorfismo em ação: mesma interface, diferentes comportamentos.
+
