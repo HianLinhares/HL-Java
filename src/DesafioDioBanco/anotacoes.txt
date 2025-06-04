@@ -1,0 +1,9 @@
+encapsulamento
+
+conceito de esconder as implementações dos objetos que não
+fazem sentido ser expostas. Definir a interface de uso de forma
+mais adequada, que faça sentido com aquilo que esta sendo modelado
+
+
+
+//UMA CONTA ABSTRATA NÃO PODE SER INSTACIADA
