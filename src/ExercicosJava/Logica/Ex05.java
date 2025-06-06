@@ -1,4 +1,4 @@
-package ExercicosJava;
+package ExercicosJava.Logica;
 
 import java.util.Scanner;
 
