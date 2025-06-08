@@ -63,21 +63,70 @@ Você deve criar e usar uma função booleana chamada ehPrimo(int n).
         System.out.println("INFORME UM NÚMERO INICIAL E UM NÚMERO FINAL");
         System.out.println("OBS: O NÚMERO INICIAL DEVE SER MENOR QUE O NÚMERO FINAL");
         Scanner hl = new Scanner(System.in);
+        System.out.println();
+        System.out.print("NÚMERO INICIAL: ");
         int nInicial = hl.nextInt();
+        System.out.print("NÚMERO FINAL: ");
         int nFinal = hl.nextInt();
-        if (nFinal > nInicial || nFinal == nInicial) {
+        int qtdPrimos = 0;
+        if (nFinal < nInicial || nFinal == nInicial) {
             System.out.println("VOCÊ INFORMOU NÚMEROS INVÁLIDOS");
         }
 
+        // Percorre do número inicial ao final e verifica se cada número é primo
         for (int i = nInicial; i <= nFinal; i++) {
-            System.out.println(i);
+            if (ehPrimo(i)) {
+                qtdPrimos++;
+                System.out.print(" ( "+i+" ) ");
+            }
         }
+        System.out.println();
+        System.out.println("QUANTIDADE DE NÚMEROS PRIMOS: "+qtdPrimos);
+
+        hl.close();
+    }
 
 
+    public static boolean ehPrimo(int n) {
+        if (n <= 1) {
+            return false;
+        }
+        for (int i = 2; i <= Math.sqrt(n); i++) {
+            if (n % i == 0) {
+                return false;
+            }
+        }
+        return true;
     }
 
 
 }
+
+/*
+
+Como verificar se um número é primo?
+Para saber se um número n é primo, fazemos o seguinte:
+
+Verificamos se n é menor ou igual a 1 — se for, não é primo.
+
+Testamos se existe algum número inteiro entre 2 e a raiz quadrada de n que divide n sem deixar resto (ou seja, n % i == 0).
+
+Se encontrarmos algum divisor, o número não é primo.
+
+Se não encontrarmos nenhum divisor, o número é primo.
+
+Por que até a raiz quadrada?
+Porque se um número n tem um divisor maior que sua raiz quadrada, ele também terá um divisor menor que ela.
+Exemplo:
+Se 36 é divisível por 9 (maior que raiz quadrada de 36 que é 6), 36 também é divisível por 4 (menor que 6). Então só faz sentido testar até a raiz quadrada.
+
+*/
+
+
+
+
+
+
 
 
 
