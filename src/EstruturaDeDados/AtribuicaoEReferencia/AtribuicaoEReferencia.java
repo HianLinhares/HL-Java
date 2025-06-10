@@ -1,4 +1,4 @@
-package EstruturaDeDados;
+package EstruturaDeDados.AtribuicaoEReferencia;
 
 public class AtribuicaoEReferencia {
     public static void main(String[] args) {

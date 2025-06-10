@@ -1,4 +1,4 @@
-package EstruturaDeDados;
+package EstruturaDeDados.AtribuicaoEReferencia;
 
 public class MeuObj {
     int num;
