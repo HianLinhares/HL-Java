@@ -1,9 +1,9 @@
-package ListaDuplamenteEncadeada;
+package EstruturaDeDados.ListaDuplamenteEncadeada;
 
 public class Main {
     public static void main(String args[]){
 
-        ListaDuplamenteEncadeada<String> minhaListaEncadeada = new ListaDuplamenteEncadeada<>();
+        ListaDuplamenteEncadeada<String> minhaListaEncadeada = new ListaDuplamenteEncadeada<String>();
 
         minhaListaEncadeada.add("c1");
         minhaListaEncadeada.add("c2");

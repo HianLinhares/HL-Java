@@ -1,4 +1,4 @@
-package ListaDuplamenteEncadeada;
+package EstruturaDeDados.ListaDuplamenteEncadeada;
 
 public class NoDuplo <T> {
     private T conteudo;

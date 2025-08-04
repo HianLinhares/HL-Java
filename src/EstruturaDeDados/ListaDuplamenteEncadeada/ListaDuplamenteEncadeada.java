@@ -1,4 +1,4 @@
-package ListaDuplamenteEncadeada;
+package EstruturaDeDados.ListaDuplamenteEncadeada;
 
 public class ListaDuplamenteEncadeada<T> {
 
