@@ -1,7 +1,7 @@
 Polimorfismo significa "muitas formas".
 É a capacidade de um objeto se comportar de maneiras diferentes dependendo do contexto, mesmo que tenha a mesma interface ou classe base.
 
-Em POO, permite que métodos com o mesmo nome tenham comportamentos diferentes, conforme a classe do objeto.
+Em ConceitosPOO, permite que métodos com o mesmo nome tenham comportamentos diferentes, conforme a classe do objeto.
 
 ✅ Benefícios do polimorfismo
 Flexibilidade no código

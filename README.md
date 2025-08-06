@@ -7,7 +7,7 @@ Este espaço é dedicado a organizar e compartilhar os meus aprendizados, práti
 ✅ Fundamentos da linguagem Java
 Variáveis, tipos de dados, operadores, estruturas de controle (if, switch, loops, etc).
 
-✅ Programação Orientada a Objetos (POO)
+✅ Programação Orientada a Objetos (ConceitosPOO)
 Classes, objetos, encapsulamento, herança, polimorfismo, interfaces.
 
 ✅ Coleções Java (Collections Framework)

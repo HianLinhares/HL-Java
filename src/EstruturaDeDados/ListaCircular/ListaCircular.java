@@ -1,4 +1,4 @@
-package ListaCircular;
+package EstruturaDeDados.ListaCircular;
 
 
     public class ListaCircular<T> {

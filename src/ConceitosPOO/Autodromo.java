@@ -1,4 +1,4 @@
-package POO2;
+package ConceitosPOO;
 
 public class Autodromo {
     public static void main(String[] args) {
