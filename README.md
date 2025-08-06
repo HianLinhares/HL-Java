@@ -38,3 +38,4 @@ IDE: IntelliJ IDEA
 
 JDK: Oracle JDK / OpenJDK
 
+[1752761277265.pdf](https://github.com/user-attachments/files/21582484/1752761277265.pdf)
