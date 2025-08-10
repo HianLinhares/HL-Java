@@ -1,4 +1,4 @@
-package EstruturaDeDados.Stack;
+package EstruturaDeDados.PilhaDaLinguagem;
 
 import java.util.Stack;
 
