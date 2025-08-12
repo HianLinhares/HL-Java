@@ -1,0 +1,67 @@
+No sentido amplo, “collections” significa estruturas de dados prontas que armazenam e manipulam grupos de objetos.
+Essas estruturas permitem guardar, buscar, remover, ordenar, e percorrer dados de forma eficiente — sem você ter que criar tudo do zero.
+
+Exemplos de coleções:
+
+List → mantém elementos ordenados e permite repetição (ArrayList, LinkedList)
+
+Set → não permite elementos repetidos (HashSet, TreeSet)
+
+Queue / Deque → segue uma ordem de processamento (fila ou pilha) (PriorityQueue, ArrayDeque)
+
+Map (não é tecnicamente Collection, mas é parte do framework) → armazena pares chave-valor (HashMap, TreeMap)
+
+//////////////////////////////////////////////
+
+
+No sentido específico, Collections é uma classe utilitária que oferece métodos estáticos para manipular coleções, como:
+
+Collections.sort(lista) → ordena uma lista
+
+Collections.reverse(lista) → inverte a ordem
+
+Collections.shuffle(lista) → embaralha elementos
+
+Collections.max(lista) / Collections.min(lista) → encontra o maior/menor elemento
+
+Collections.unmodifiableList(lista) → cria uma lista imutável
+
+//////////////////////////////////////////////
+
+ Estrutura básica do Collections Framework
+1. Interface Collection
+É a raiz da maioria das coleções.
+
+Define operações básicas: adicionar, remover, limpar, checar tamanho, verificar se contém elemento.
+
+Subinterfaces principais:
+
+List → coleção ordenada que permite elementos duplicados.
+
+Set → coleção não ordenada e sem duplicatas.
+
+Queue → coleção que segue regras de fila (FIFO, LIFO, ou prioridade).
+
+2. Interface Map
+
+//////////////////////////////////////////////
+
+Interface Map
+Não herda de Collection.
+
+Armazena pares chave-valor.
+
+Cada chave é única, mas valores podem se repetir.
+
+Implementações comuns:
+
+HashMap → rápido, sem ordem.
+
+LinkedHashMap → mantém a ordem de inserção.
+
+TreeMap → ordenado pelas chaves (usa árvore binária balanceada).
+
+Hashtable → versão sincronizada (mais antiga).
+
+//////////////////////////////////////////////
+
