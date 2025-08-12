@@ -38,4 +38,13 @@ IDE: IntelliJ IDEA
 
 JDK: Oracle JDK / OpenJDK
 
+Roadmap de estudos:
 [1752761277265.pdf](https://github.com/user-attachments/files/21582484/1752761277265.pdf)
+
+Estrutura de dados: 
+https://github.com/jrdutra/estruturaDeDadosJavaDio/tree/main
+
+Collections:
+https://github.com/cami-la/curso-dio-intro-collections?tab=readme-ov-file
+
+
