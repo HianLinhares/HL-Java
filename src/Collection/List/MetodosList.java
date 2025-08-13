@@ -4,7 +4,7 @@ package Collection.List;
 import java.util.*;
 
 //Lista
-public class ExemploList {
+public class MetodosList {
     public static void main(String[] args) {
         List<Double> notas = new ArrayList<>(); //criação de uma lista usando collections
         notas.add(3d); //adicionando itens nessa lista
