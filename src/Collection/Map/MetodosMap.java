@@ -65,7 +65,7 @@ public class MetodosMap {
         }
 
         //imprimindo o tamanho do hashMap
-        System.out.println();carrosPopulares.size()
+        System.out.println(carrosPopulares.size());
 
 
     }

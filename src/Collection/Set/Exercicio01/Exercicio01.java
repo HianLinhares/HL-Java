@@ -6,7 +6,7 @@ public class Exercicio01 {
     public static void main(String[] args) {
         System.out.println("Crie uma conjunto contendo as cores do arco-íris: ");
         Set<String> coresArcoIris = new HashSet<>();
-        coresArcoIris.add("violeta");
+        coresArcoIris.add("Violeta");
         coresArcoIris.add("anil");
         coresArcoIris.add("azul");
         coresArcoIris.add("verde");
