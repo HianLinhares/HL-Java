@@ -1,0 +1,23 @@
+Gradle:
+Sistema de automação e compilação de builds, ele pega todos os arquivos do projeto e cria um JAR
+
+Resumindo:
+Ele faz a build do seu projeto e você pode definir como será essa build
+sistemas similares: Maven e Ant
+
+O que é capaz de fazer:
+1)fazer diversas tarefas antes, durante e após as builds
+2)Rodar os unit tests do projeto
+3)colocar o JAR ou a APK em uma pasta diferente da padrão
+4)Gestão de dependências do projeto
+5)Capaz de realizar múltiplos módulos(alguns chamam de multi projetos) e variações de compilação
+6)Gerar documentação (Javadoc)
+
+
+Gradlew:
+Permite utilizar todas as funcionalidades do gradle, sem precisar instalar o gradle nativo
+
+O que ele é capaz de fazer ?
+1)Envelopa toda a configuração do gradle
+2)Outros devs podem trabalhar no projeto com a mesma configuração de gradle
+3)muito utilizado com times grandes
