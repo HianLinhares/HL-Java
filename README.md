@@ -47,4 +47,7 @@ https://github.com/jrdutra/estruturaDeDadosJavaDio/tree/main
 Collections:
 https://github.com/cami-la/curso-dio-intro-collections?tab=readme-ov-file
 
+Graddle: 
+https://github.com/bmartho/GradleCourse
+
 
