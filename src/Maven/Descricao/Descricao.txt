@@ -1,0 +1,6 @@
+Apache Maven
+Ferramenta de gerenciar build e dependências de um projeto
+
+
+O Maven é uma das ferramentas mais utilizadas no ecossistema Java para automação de builds
+ e gerenciamento de dependências.  -"Chat GPT"

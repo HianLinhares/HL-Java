@@ -21,3 +21,5 @@ O que ele é capaz de fazer ?
 1)Envelopa toda a configuração do gradle
 2)Outros devs podem trabalhar no projeto com a mesma configuração de gradle
 3)muito utilizado com times grandes
+
+
