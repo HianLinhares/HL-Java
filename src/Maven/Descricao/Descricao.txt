@@ -4,3 +4,10 @@ Ferramenta de gerenciar build e dependências de um projeto
 
 O Maven é uma das ferramentas mais utilizadas no ecossistema Java para automação de builds
  e gerenciamento de dependências.  -"Chat GPT"
+
+
+Comandos do dia a dia utilizando maven
+
+mvn compile - compilar as classes
+mvn test - o maven irá encontrar todas as classes de teste e irá fazer todas as validações
+mvn package - criaçaõ do páckage da aplicação 
