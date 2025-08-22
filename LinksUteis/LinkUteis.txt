@@ -1,0 +1,16 @@
+Repositórios úteis
+
+CHECKLIST JAVA - HL
+https://docs.google.com/spreadsheets/d/1PYLsncsEqwAcrrmtO2esCw2shIZGQbH6G-uwYcocdW8/edit?usp=sharing
+
+ESTRUTURA DE DADOS
+https://github.com/jrdutra/estruturaDeDadosJavaDio/tree/main
+
+COLLECTIONS
+https://github.com/cami-la/curso-dio-intro-collections?tab=readme-ov-file
+
+GRADDLE
+https://github.com/bmartho/GradleCourse
+
+I/O
+https://github.com/cami-la/curso-dio-intro-java-i-o/tree/master

@@ -1,0 +1,5 @@
+NumberFormatException → ocorre ao tentar converter uma String inválida em número
+ArithmeticException → operações matemáticas inválidas (ex.: divisão por zero).
+ArrayIndexOutOfBoundsException → índice inválido em array.
+StringIndexOutOfBoundsException → índice inválido em String.
+NullPointerException → tentar acessar método/atributo de um objeto nulo.

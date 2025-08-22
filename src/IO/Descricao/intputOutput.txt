@@ -1,0 +1,35 @@
+MANIPULAÇÃO DE DADOS
+-O computador processa os dados com 0 e 1 (bit)
+-Cada símbolo é representado por um padrão de 0 e 1 (1-byte = 8 bits)
+-Arquivo na visão do sistema operacional é um depósito de dados persistentes, um conjunto de bytes
+(imagens, sons e etc)
+-Java visualiza o arquivo como um fluxo sequencial de bytes(Stream)
+-Stream (Fluxo sequencial de bytes)
+
+STREAM CARACTERES
+- A plataforma java armazena caracteres segundo o padrão ‘unicode’
+- Unicode é uma codificação para caracteres textuais capazes de representar caracteres de muitos idiomas diferentes de todo o mundo
+- Cada caracter é representado por um ponto de código Unicode (Code Points)
+- As classes mães reader e writer (Classes abstratas) representa um fluxo de caracteres. Como são classes abstratas, precisam das classes
+filhas (classes concretas) para ler e gravar dados
+
+
+FLUXOS PREDEFINIDOS
+-Entrada de dados através do teclado: System.in (Scanner)
+-Saída de dados através do console: System.out.println/PrintWriter
+
+-Classe System (Java.lang.System) encapsula vários aspectos do ambiente de tempo de execução e tem três atributos (Public, final e static)
+e associados aos arquivos padrão de um sistema operacional:
+System.in: Objeto InputStream para a entrada padrão (TECLADO)
+System.out: Objeto PrintStream para a saída padrão (CONSOLE)
+System.Err: Objeto PrintStream para saída padrão de erros (CONSOLE)
+
+
+JAVA.IO.FILE
+-Classe File é a classe responsável por representar arquivos ou diretórios do seu sistema de arquivos. esta classe pode
+fornecer informações úteis assim como criar um novo arquivo, tamanho do arquivo, caminho absoluto, espaço livre em disco ou, ainda exclui-lo
+
+I/O Caracteres
+
+
+
