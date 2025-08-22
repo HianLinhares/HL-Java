@@ -1,0 +1,75 @@
+-----------------------------------------------------------------------------------------------------
+-> NÍVEIS DE TESTES
+Unidade
+Integração
+Sistema
+Regressão
+Aceitação
+
+Unidade
+-Momento de realizar testes sobre as pequenas unidades do software. Cada parte específica do método
+(JUunit - Java)
+
+Integração
+-Voltado para uma unidade maior do software (conexão com o banco de dados, APIs). Teste de alto nível
+
+Sistema
+-Após o deploy em ambiente de HML, ocorre essa validação direta no ambiente
+
+Regressão
+- Reavaliar se as novas features não estão quebrando as funcionalidades antigas do software
+AUTOMAÇÃO DE TESTE: SELENIUM
+
+-----------------------------------------------------------------------------------------------------
+-> TÉCNICAS DE TESTES
+Caixa Branca
+Caixa Preta
+Caixa Cinza
+
+Caixa Branca (Conhecendo o código-fonte)
+-Também conhecido cmo teste estrutural
+-Validar dados, controles, fluxos, chamadas
+-Garantir a qualidade da implementação
+
+
+Caixa Preta (Sem conhecimento sobre o código fonte)
+-Teste funcional
+-Verificar saídas usando vários tipos de entrada
+-Teste sem conhecer a estrutura interna do software
+-Níveis: Integração, Sistema, aceitação
+
+Caixa cinza (Mescla entre as técnicas de caixa branca e caixa preta)
+-Analisa parte lógica e também funcionalidade
+-Ter acesso a documentação do funcionamento do código
+-Engenharia reversa
+-----------------------------------------------------------------------------------------------------
+TESTES NÃO FUNCIONAIS
+
+Testes não funcionais estão ligados a requisitos não funcionais
+1) Comportamento do sistema
+2) Performace
+3) Escalabilidade
+4) Segurança
+5) Infraestrutura
+
+----------------------------------------------------------------------------------------------------
+TESTE DE CARGA
+
+O teste de carga é realizado para verificar qual o volume de transações, acessos silmuâneos ou usuários
+que um servidor/software/sistema suporta. Alguns pontos de atenção:
+
+Objetivo para clareza de resultados
+Ambiente
+Cenários
+Execução de testes
+Análise de resultado
+----------------------------------------------------------------------------------------------------
+TESTE DE STRESS
+
+Teste de stress é realizado para submeter o software a situações extremas. Basicamente, o teste de stresss
+baseia-se em testar os limites do software e avaliar seu comportamento
+
+----------------------------------------------------------------------------------------------------
+TESTE DE SEGURANÇA (PENTEST)
+
+Teste que visa detectar vulnerabilidades em sistemas, software, redes e aplicativos
