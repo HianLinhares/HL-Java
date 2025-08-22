@@ -1,53 +1,34 @@
-📚 Repositório de Estudos em Java
-Bem-vindo ao meu repositório de estudos em Java! 🚀
+# 🚀 Repositório de Estudos em Java
 
-Este espaço é dedicado a organizar e compartilhar os meus aprendizados, práticas e projetos desenvolvidos durante meu processo de estudo da linguagem Java.
+Este repositório reúne meus estudos, exercícios e projetos desenvolvidos em Java.  
 
-📌 Conteúdos abordados
-✅ Fundamentos da linguagem Java
-Variáveis, tipos de dados, operadores, estruturas de controle (if, switch, loops, etc).
 
-✅ Programação Orientada a Objetos (ConceitosPOO)
-Classes, objetos, encapsulamento, herança, polimorfismo, interfaces.
+---
 
-✅ Coleções Java (Collections Framework)
-List, Set, Map, Iterator, e demais estruturas de dados.
+## 📚 Conteúdos abordados
 
-✅ Streams e Lambda Expressions
-Manipulação de fluxos de dados e uso de programação funcional.
+- Sintaxe básica da linguagem  
+- Programação Orientada a Objetos (classes, interfaces, herança, polimorfismo, abstração)  
+- Tratamento de exceções  
+- Entrada e saída de arquivos (I/O)  
+- Collections (List, Set, Map, Queue)  
+- Testes unitários (JUnit)  
+- Conceitos de Maven e Gradle  
+- Projetos práticos e exercícios  
 
-✅ Threads e Concorrência
-Processamento paralelo e controle de threads.
+---
 
-✅ Desafios de lógica e exercícios práticos
-Problemas resolvidos para fixação dos conceitos.
+## 🛠️ Tecnologias e ferramentas
 
-🎯 Objetivos
-Consolidar os conhecimentos adquiridos em Java.
+- **Java JDK** (versão 24)  
+- **IDE**: IntelliJ IDEA 
+- **Gerenciadores de dependência**: Maven e Gradle  
+- **Git e GitHub** para versionamento  
+- **JUnit** para testes  
 
-Ter um espaço organizado para consultas futuras.
+---
 
-Compartilhar código com outros desenvolvedores que também estejam estudando.
+## 📂 Estrutura do repositório
 
-Praticar boas práticas de codificação.
-
-🛠️ Tecnologias utilizadas
-Java SE (versão 8+)
-
-IDE: IntelliJ IDEA 
-
-JDK: Oracle JDK / OpenJDK
-
-Roadmap de estudos:
-[1752761277265.pdf](https://github.com/user-attachments/files/21582484/1752761277265.pdf)
-
-Estrutura de dados: 
-https://github.com/jrdutra/estruturaDeDadosJavaDio/tree/main
-
-Collections:
-https://github.com/cami-la/curso-dio-intro-collections?tab=readme-ov-file
-
-Graddle: 
-https://github.com/bmartho/GradleCourse
-
+A organização dos diretórios segue a lógica de temas e/ou módulos estudados:
 
