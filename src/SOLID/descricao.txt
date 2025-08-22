@@ -1,0 +1,49 @@
+SOLID
+Acrónimo dos princípios da programação orientada a objetos descritas por Robert C.Martin ("Uncle Bob")
+Auxiliam o programador a escrever códigos mais limpos, facilitando a refatorarão e estimulando o reaproveitamento de código.
+
+S - Princípio da responsabilidade única
+O - Princípio aberto fechado
+L - Príncipio da substituição de Liskov
+I - Princípio da segregação da ‘interface’
+D - Princípio da inversão da dependência
+
+
+S
+-Uma classe deve possuir uma única responsabilidade dentro do ‘software’
+
+O
+-Objetos devem estar abertos para extensão, mas fechados para modificação
+- Quando novos comportamentos precisam ser adicionados no software, devemos estender e não alterar
+o código-fonte original
+
+
+L
+-Classes derivadas devem ser substituíveis por suas classes bases.
+-----------------------------------------------------------------------
+interface Ave {
+}
+
+interface AveQueVoa extends Ave {
+    void voar();
+}
+
+class Pardal implements AveQueVoa {
+    public void voar() {
+        System.out.println("Pardal voando");
+    }
+}
+
+class Pinguim implements Ave {
+    // não implementa AveQueVoa, pois não voa
+}
+-----------------------------------------------------------------------
+
+I
+-Faça interfaces refinadas que são específicas do cliente
+-Uma classe não deve ser forçada a implementar interfaces e métodos que não são utilizados
+-É melhor criar interfaces mais específicas ao invés de termos uma única interface genérica
+
+D
+- Um módulo de alto nível não deve depender de módulos de baixo nível, ambos devem depender da abstração
+OBS: Inversão de dependência não é igual a injeção de dependência
