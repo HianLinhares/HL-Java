@@ -73,3 +73,40 @@ baseia-se em testar os limites do software e avaliar seu comportamento
 TESTE DE SEGURANÇA (PENTEST)
 
 Teste que visa detectar vulnerabilidades em sistemas, software, redes e aplicativos
+
+----------------------------------------------------------------------------------------------------
+PIRÂMIDE DE TESTE
+
+1)UI Tests
+2)Service Tests
+3)Unit Tests
+
+UI TESTS (Testes de Interface do Usuário)
+
+O que são: Validam o sistema a partir da perspectiva do usuário final, testando fluxos completos na interface (web, mobile, desktop).
+Exemplo: Abrir a tela de login, digitar usuário e senha e verificar se o acesso funciona corretamente.
+
+Características:
+Cobrem todo o sistema de ponta a ponta. São mais lentos de rodar e mais caros de manter. Devem ser poucos, focados em validar os principais fluxos críticos de negócio.
+
+
+Service Tests (Testes de Serviço / Integração / API)
+
+O que são: Validam a comunicação e o comportamento entre diferentes módulos, serviços ou APIs.
+Exemplo: Enviar uma requisição REST para o endpoint de criação de usuário e verificar se a resposta está correta e se o usuário foi salvo.
+
+Características:
+Testam a lógica de negócio sem passar pela interface. Mais rápidos e estáveis que os de UI.
+Servem para garantir que módulos e serviços funcionem bem em conjunto. Normalmente ocupam o "meio" da pirâmide, em quantidade média.
+
+
+Unit Tests (Testes Unitários)
+
+O que são: Validam pequenas partes isoladas do código (funções, classes, métodos).
+Exemplo: Testar se uma função de cálculo de desconto retorna o valor correto dado um preço e uma porcentagem.
+
+Características:
+São rápidos, baratos e fáceis de automatizar.
+Não dependem de banco de dados, rede ou interface.
+Devem ser a base da pirâmide, com maior quantidade.
+Fornecem feedback rápido aos desenvolvedores.
