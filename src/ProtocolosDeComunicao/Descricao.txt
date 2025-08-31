@@ -6,5 +6,52 @@ Este protocolo rege a comunicação e determina o comportamento das partes. Esse
 influenciar no desenvolvimento da aplicação do DEV. Sendo preciso conhecer minimamente os cenários existentes
 a fim de mitigar possíveis erros
 
+COMO FUNCIONA O PROTOCOLO HTTP (Intermédio da conexão entre cliente e servidor)
+Cliente-> Mensagens (Request HTTP)
+Servidor-> Mensagens (Response HTTP)
+
+HTTP REQUEST
+Método(GET,POST..)
+versão(HTTP 1.1, 2.0, HTPPS)
+URL
+connection(Open, close)
+Agente(browser,postman..)
+preferencia do cliente(linguagem..)
+
+HTTP RESPONSE
+200 -> OK
+301 -> Objeto realocado nova URL no campo location
+400 -> Resposta genérica de que o servidor não entendeu a mensagem
+404 -> O Documento solicitado não existe
+505 -> Versão do protocolo não suportado pelo servidor
+
+
+PRINCIPAIS MÉTODOS HTTP
+GET → Buscar recurso do servidor
+POST → submete a entidade a um recurso
+PUT → substituição dos recursos pelos dados da requisição (total).
+PATCH → substituição similar ao Put mas de forma parcial
+DELETE → Apagar.
+OPTION -> Opções de comunicação com recuros
+Métodos seguros (Get, Post, Option) -> Quando executados, não modificam o estado do servidor
+
+
+FORMATO DE ESTRUTURAÇÃO DE DADOS
+*XML
+*JSON
+Servem para armazenar, transmitir a reconstrução do dados
+
+
+
+COOKIES E CACHE
+stateless -> Não guarda as informações do cliente no servidor
+Cookies -> São pequenos arquivos de texto que o servidor envia ao navegador do usuário
+e este guarda localmente para serem enviados de volta em futuras requisições ao mesmo domínio
+
+Cache-> É uma cópia temporária de recursos (HTML, CSS, JS, imagens, respostas de API)
+armazenada no navegador, servidor ou intermediários (CDN, proxy).
+
+Cookie de sessão -> quando a sessão acaba o cookie é deletado
+Cookie persistentes ->  Não é deletado ao final da sessão (Mantendo logins ativos)
 
 
