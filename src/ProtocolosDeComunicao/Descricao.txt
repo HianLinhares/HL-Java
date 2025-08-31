@@ -1,0 +1,10 @@
+Conhecendo os principais protocolos de comunicação da internet:
+
+OBJETIVO GERAL
+APIs, servidores, clientes se comunicam com a internet através de um protocolo de comunicação
+Este protocolo rege a comunicação e determina o comportamento das partes. Esse cenário pode
+influenciar no desenvolvimento da aplicação do DEV. Sendo preciso conhecer minimamente os cenários existentes
+a fim de mitigar possíveis erros
+
+
+

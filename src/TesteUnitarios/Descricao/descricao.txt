@@ -1,0 +1,33 @@
+POR QUE ESCREVER TESTES UNITÁRIOS
+
+-Também chamados teste de unidade, testar a menor unidade de código possível
+-Unidade: função, método, classes
+-Testar uma aplicação na sua menor parte
+-Geralmente escrito em tempo de desenvolvimento.
+
+1)Compreender o código fonte
+2)Corrigir bugs de segurança
+3)Refatorar código sem introduzir bugs
+4)Entregar com segurança uma nova feature
+5)Testes unitários como métrica de qualidade (Confiabilidade)
+6)Cobertura de testes
+7)Automação na execução de testes
+8)Cultura de agilidade
+
+
+JUnit
+
+-Framework open source para criação de testes unitários
+-Versão atual: 5
+JUnit Plataform: Componente que executa os testes (Motor do framework)
+JUnit Jupiter: Realizar as implementações de annotation
+JUnit Vintage: Realiza integrações com versões antigas do JUnit
+
+
+CONFIGURAÇÃO DO JUNIT
+
+PASSO 1: acessar o site https://mvnrepository.com/artifact/junit/junit
+PASSO 2: na barra de busca buscar por JUnit
+PASSO 3: selecionar JUnit Jupiter Engine (3)
+PASSO 4: escolher a versão (8.02)
+PASSO 5: escolher a versão do gerenciador de dependências (Maven ou Grandle)
