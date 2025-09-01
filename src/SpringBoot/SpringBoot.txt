@@ -1,0 +1,4 @@
+O QUE É O SPRING BOOT
+enquanto o spring framework é baseado no padrão de dependências
+o SpringBoot foca na configuração automática
+

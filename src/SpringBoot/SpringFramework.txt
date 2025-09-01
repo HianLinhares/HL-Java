@@ -1,0 +1,34 @@
+O QUE É O SPRING FRAMEWORK:
+framework open source desenvolvido para plataforma java, baseado nos padrões de projetos de inversão.
+Sua estrutura é composta por módulos afins de reduzir a complexidade no desenvolvimento de aplicações
+simples ou corporativa.
+
+SPRING VS JAVA EE
+Olhando um pouco a história, o JAVA EE era complicado entre os desenvolvedores, usar o spring era o caminho
+mais simples e fácil de evoluir. Aí chegou a versão 5 do java EE e a discusão voltou a ficar um pouco mais quente
+
+INVERSÃO DE CONTROLE (IOC)
+trata-se do redirecionamento do fluxo de execução de um código retirando parcialmente o controle, sobre ele
+e delegando-o para um container. O principal propósito é minizar o acoplamento do código
+
+INJEÇÃO DE DEPENDÊNCIAS
+injeção de dependências é um padrão de desenvolvimentos com a finalidade de manter baixo o nível de acoplamento
+entre módulos de um sistema
+
+BEANS
+Objeto que é instanciado (criado),montado e gerenciado por um container
+através do princípio da inversão de controle
+
+
+SCOPES
+Singleton-> Escopo de um único objeto sendo compartilhado por toda a aplicação quando solicitado
+Prototype -> Criado uma nova instancia de objeto a cada solicitação ao container (para não inferir mudança de estrutura)
+HTTP Request -> Um bean será criada para cada requisição HTTP, mas quando finalizado a ação este bean será excluído
+HTTP Seesion -> Um bean será criado para a sessão de usuário (manter o estado do usuário)
+HTTP Global -> Cria um bean para o ciclo de vida do contexto da aplicação (objetos compartilhados por toda a aplicação)
+AUTOWIRED-> Uma anota~ção onde deverá ocorrer uma injeção automática de dependências (Byname: buscando o nome do bean, Bytype: é considerado o tipo da classe para inclussão do bean)
+
+
+
+
+
