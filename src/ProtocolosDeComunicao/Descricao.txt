@@ -41,8 +41,6 @@ FORMATO DE ESTRUTURAÇÃO DE DADOS
 *JSON
 Servem para armazenar, transmitir a reconstrução do dados
 
-
-
 COOKIES E CACHE
 stateless -> Não guarda as informações do cliente no servidor
 Cookies -> São pequenos arquivos de texto que o servidor envia ao navegador do usuário
@@ -53,5 +51,15 @@ armazenada no navegador, servidor ou intermediários (CDN, proxy).
 
 Cookie de sessão -> quando a sessão acaba o cookie é deletado
 Cookie persistentes ->  Não é deletado ao final da sessão (Mantendo logins ativos)
+
+
+HTTP 2.0
+Atualizações no protocolo 1.1 com uma importante mudança de priorização de requisições
+
+HTTPS
+
+criptografia por chave
+Assimétrica-> Chave privada(criptografia)
+Simétrica-> Chave única privada
 
 
