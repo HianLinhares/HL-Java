@@ -2,3 +2,23 @@ O QUE É O SPRING BOOT
 enquanto o spring framework é baseado no padrão de dependências
 o SpringBoot foca na configuração automática
 
+Dado que a maior parte das configurações necessárias para o inicio de um projetosão sepre as mesmas, por que
+não iniciar um projeto com todas estas configurações já pré definidas
+
+
+Benefícios
+Coesão: Previamente avaliados quais dependências necessárias
+Versões compatíveis: Préviamente definidos as dependências para o projeto
+Otimização do tempo
+Configuração simples: Após a inclusão de uma única dependência(Macro) os demais itens já serão incluidos automáticamente
+
+
+STARTERS
+data-jpa: Integração ao banco de dados via JPA - Hibernate
+data-mongodb: Interaçaõ com o banco de dados MongoDB
+Web: Inclusão do container Tomcar para aplicações Rest.
+Web-Services: Webservices baseado na arquitetura SOAP
+Batch: Implementações de JOBs de processos
+Test: Disponibilização de recurso para testes unitários como JUnit
+OpenFeign: Client HTTP baseado em interfaces
+Actuator: Gerenciamento de monitoramento da aplicação
