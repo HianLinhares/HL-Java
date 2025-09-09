@@ -26,7 +26,7 @@ Este repositório reúne meus estudos, exercícios e projetos desenvolvidos em J
 - **Git e GitHub** para versionamento  
 - **JUnit** para testes  
 
-<img width="1041" height="520" alt="image" src="https://github.com/user-attachments/assets/73206566-07de-43fb-889d-045f89437736" />
 
 
+<img width="1120" height="793" alt="HNBPEOFY" src="https://github.com/user-attachments/assets/533ed0c2-403b-4451-af72-6f08b8d52bcf" />
 
